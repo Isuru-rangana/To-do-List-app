@@ -31,7 +31,7 @@ body{
     background-color: azure;
     padding: 30px 20px;
     border-radius: 5px;
-    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 15px 30px rgba(37, 29, 29, 0.3);
 }
 
 #newtask input{
@@ -42,5 +42,36 @@ body{
     padding: 14px;
     font-weight: 400;
     border: 2px solid #d161ff;
+    position: relative;
+    border-radius: 5px;
+}
+
+#newtask input:focus{
+    outline: none;
+    border-color: aqua;
+}
+
+#newtask button{
+    position: relative;
+    width: 20%;
+    float: right;
+    height: 45px;
+    border-radius: 5px;
+    font-family: popper, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: aqua;
+    border:none;
+    color: #ffffff;
+    cursor: pointer;
+
+}
+#tasks{
+    background-color: aliceblue;
+    padding: 30px 20px;
+    margin-top: 40px;
+    border-radius: 10px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+    width: 100%;
     position: relative;
 }
