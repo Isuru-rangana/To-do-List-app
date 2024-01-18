@@ -100,3 +100,6 @@ body{
     border-radius: 5px;
     cursor: pointer;
 }
+.completed{
+    text-decoration: line-through;
+}
